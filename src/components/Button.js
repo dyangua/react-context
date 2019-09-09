@@ -16,7 +16,7 @@ class Button extends React.Component {
           <button
             className="button"
             style={{
-              background: `${value === 'english' ? color : 'peru'}`,
+              background: `${value.language === 'english' ? color : 'peru'}`,
               marginTop: '2rem'
             }}
           >
